@@ -1,0 +1,36 @@
+----------------------------------
+Keil setup
+----------------------------------
+
+1. open keil
+
+2. optional (if want to create manually, go to project > new uvison project)
+
+3.target and source group is already being setup
+
+4. click "file" and then "new"
+
+5. save the file with .c extenstion
+
+6. copy and paste the code.
+
+7. right-click 'source group' and select 'add existing file', add the .c file and click 'close'
+
+8. right-click 'target' and goto 'options for target1' 
+
+9. set the xtal(MHz) to 11.0592 and goto 'output' and select 'create hex file' and close.
+
+=======================================
+protius setup
+=======================================
+
+
+1. copy the given protius file with extension '.pdsprj' and paste the file inside the keil folder.
+
+2. double click on micro controller and select program file and select the hex file and add.
+
+3. set clock frequency to 11.0592 and click save/ok
+
+4. run the protius file
+ 
+
