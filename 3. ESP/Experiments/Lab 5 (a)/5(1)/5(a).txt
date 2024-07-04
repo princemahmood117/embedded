@@ -1,0 +1,13 @@
+1. after putting the code, click "debug"
+
+2. select "start/stop debug session" 
+
+3. select analysis window (drag and extend the window)
+
+4. select setup 
+
+5. click "new insert" and type P2 (as the code has P2)
+
+6. select P2 and click "close"
+
+7. go to 'debug' and click run. (the waves should be visible)

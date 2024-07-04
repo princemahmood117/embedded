@@ -1,0 +1,31 @@
+open Keil µVision
+
+Project > New µVision Project
+
+Path: C:\Keil_v5\C51\Examples\HELLO
+> rename > lab 1 > save
+
+Search: AT89C51
+click (AT89C51) Microchip > ok
+select No
+
+File > New > write code > save > lab 1.c
+
+left side > Target 1 > Source Group 1(right click) > Add Existing File to Group 'Source Group 1'
+
+> select (lab 1) Keil File & press "Add" & close
+
+left side > Target 1(right click) > options for target > 
+set (MHz = 11.0592) & click output select "HEX File" > OK
+
+left side > Target 1(right click) > Build Target
+
+
+Open Proteus
+
+Go to component mode & select
+1. AT89C51 
+2. LED (Green)
+
+connect LED with 21 pin and connect a ground in LED.
+right click on "AT89C51" and select "lab 1.c" code file and run. 
